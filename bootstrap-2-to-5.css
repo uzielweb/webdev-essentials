@@ -1,0 +1,183 @@
+/* For Joomla */
+.items-row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+}
+
+.items-row>* {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y);
+}
+/* End for Joomla */
+/* For all */
+
+.span1,
+.span2,
+.span3,
+.span4,
+.span5,
+.span6,
+.span7,
+.span8,
+.span9,
+.span10,
+.span11,
+.span12 {
+    position: relative;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y);
+}
+
+.span1 {
+    flex: 0 0 auto;
+    width: 8.3333333333%;
+}
+
+.span2 {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+}
+
+.span3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.span4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+}
+
+.span5 {
+    flex: 0 0 auto;
+    width: 41.6666666667%;
+}
+
+.span6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.span7 {
+    flex: 0 0 auto;
+    width: 58.3333333333%;
+}
+
+.span8 {
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+}
+
+.span9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+
+.span10 {
+    flex: 0 0 auto;
+    width: 83.3333333333%;
+}
+
+.span11 {
+    flex: 0 0 auto;
+    width: 91.6666666667%;
+}
+
+.span12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+
+/*Fix from Bootstrap 4 to 5*/
+
+.ml-0 {
+    margin-right: 0 !important;
+}
+
+.ml-1 {
+    margin-right: 0.25rem !important;
+}
+
+.ml-2 {
+    margin-right: 0.5rem !important;
+}
+
+.ml-3 {
+    margin-right: 1rem !important;
+}
+
+.ml-4 {
+    margin-right: 1.5rem !important;
+}
+
+.ml-5 {
+    margin-right: 3rem !important;
+}
+
+.ml-auto {
+    margin-right: auto !important;
+}
+
+.mr-0 {
+    margin-left: 0 !important;
+}
+
+.mr-1 {
+    margin-left: 0.25rem !important;
+}
+
+.mr-2 {
+    margin-left: 0.5rem !important;
+}
+
+.mr-3 {
+    margin-left: 1rem !important;
+}
+
+.mr-4 {
+    margin-left: 1.5rem !important;
+}
+
+.mr-5 {
+    margin-left: 3rem !important;
+}
+
+.mr-auto {
+    margin-left: auto !important;
+}
+
+@media (max-width: 767px) {
+    .span1,
+    .span2,
+    .span3,
+    .span4,
+    .span5,
+    .span6,
+    .span7,
+    .span8,
+    .span9,
+    .span10,
+    .span11,
+    .span12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    [class*="span"] {
+        padding: 0 calc(var(--bs-gutter-x) / 2);
+    }
+}
+/*  end for all */
